@@ -1,5 +1,6 @@
 CREATE TABLE staff (
  empid integer primary key AUTOINCREMENT,
- full_name text unique not null,
+ first_name varchar(60) unique not null,
+ last_name varchar(60) unique not null,
  depart text not null
 );
